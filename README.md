@@ -2,6 +2,10 @@
 
 Flight data for arrivals and departures at SFO (November, 2020)
 
+## Important
+
+This repository is missing data for 2020-11-01 due to some hiccups in the SFO Museum flight data harvesting infrastructure.
+
 ## Background
 
 Details to follow. Until then please consult https://millsfield.sfomuseum.org/blog/tags/flightdata for details and specifically:
