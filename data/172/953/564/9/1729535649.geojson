@@ -19,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1606082400,
     "flysfo:timestamp": 1606089600,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,7.267284,49.945918",
+    "geom:latitude": 43.781954,
+    "geom:longitude": -57.5518295,
     "iata:airline": "LH",
     "iata:base_airline": "UA",
     "icao:airline": "DLH",
@@ -32,7 +32,7 @@
     "mz:hierarchy_label": 1,
     "mz:is_current": -1,
     "sfomuseum:airline_id": 1159284711,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102549057,
     "sfomuseum:base_flight_id": "20201122-D-UAL-58",
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201122-D-DLH-9053",
@@ -46,7 +46,7 @@
     "wof:breaches": [],
     "wof:country": "US",
     "wof:created": 1606147748,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
     "wof:hierarchy": [
       {
         "event_id": 1729535649
@@ -60,7 +60,7 @@
       -1,
       1159285413
     ],
-    "wof:lastmodified": 1651267443,
+    "wof:lastmodified": 1651267606,
     "wof:name": "LH9053 (SFO-FRA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -71,9 +71,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
-    37.61799
+    37.61799,
+    7.267284,
+    49.945918
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[7.267284,49.945918]],"type":"MultiPoint"}
 }

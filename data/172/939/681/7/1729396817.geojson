@@ -2,6 +2,10 @@
   "id": 1729396817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-03",
+    "date:cessation_upper": "2020-11-03",
+    "date:inception_lower": "2020-11-03",
+    "date:inception_upper": "2020-11-03",
     "edtf:cessation": "2020-11-03T20:57:23Z",
     "edtf:inception": "2020-11-03T09:17:00Z",
     "flysfo:actual_timestamp": 1604437380,
@@ -15,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1604437200,
     "flysfo:timestamp": 1604437380,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,7.267284,49.945918",
+    "geom:latitude": 43.781954,
+    "geom:longitude": -57.5518295,
     "iata:airline": "LH",
     "icao:aircraft": "A343",
     "icao:airline": "DLH",
@@ -29,33 +33,32 @@
     "sfomuseum:aircraft_id": 1159289429,
     "sfomuseum:airline_id": 1159284711,
     "sfomuseum:arrival_id": 102527513,
-    "sfomuseum:departure_id": -1,
+    "sfomuseum:departure_id": 102549057,
     "sfomuseum:flight_id": "20201103-A-DLH-454",
     "sfomuseum:flight_number": [
-      "DLH454", 
+      "DLH454",
       "LH454"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "DAIFE",
     "wof:belongsto": [
-      1477930479, 
-      1477855833, 
-      102087579, 
-      1729396817, 
-      85922583, 
-      1477855605, 
-      1477855885, 
-      102085387, 
-      554784711, 
-      85688637, 
-      102191575, 
-      85633793, 
+      1477930479,
+      1477855833,
+      102087579,
+      85922583,
+      1477855605,
+      1477855885,
+      102085387,
+      554784711,
+      85688637,
+      102191575,
+      85633793,
       102527513
     ],
     "wof:breaches": [],
@@ -64,7 +67,7 @@
     },
     "wof:country": "US",
     "wof:created": 1604505861,
-    "wof:geomhash": "39d9eba3dc111bfc07b45f612540f4b0",
+    "wof:geomhash": "ec6660f1f317e7fe021c7c410168f722",
     "wof:hierarchy": [
       {
         "building_id": 1477855605,
@@ -79,7 +82,7 @@
         "region_id": 85688637,
         "venue_id": 1477930479,
         "wing_id": 1477855833
-      }, 
+      },
       {
         "building_id": 1477855605,
         "campus_id": 102527513,
@@ -95,13 +98,13 @@
     ],
     "wof:id": 1729396817,
     "wof:involves": [
-      102527513, 
-      -1, 
-      1159284711, 
-      1477930479, 
+      102527513,
+      -1,
+      1159284711,
+      1477930479,
       1159289429
     ],
-    "wof:lastmodified": 1604506310,
+    "wof:lastmodified": 1651267609,
     "wof:name": "LH454 (FRA-SFO)",
     "wof:parent_id": 1477930479,
     "wof:placetype": "event",
@@ -111,10 +114,10 @@
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
-    37.61799
+    -122.370943,
+    37.61799,
+    7.267284,
+    49.945918
   ],
-  "geometry": {"coordinates":[[0,0],[-122.370943,37.61799]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[7.267284,49.945918],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

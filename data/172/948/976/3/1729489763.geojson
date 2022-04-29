@@ -2,6 +2,10 @@
   "id": 1729489763,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-13",
+    "date:cessation_upper": "2020-11-13",
+    "date:inception_lower": "2020-11-12",
+    "date:inception_upper": "2020-11-12",
     "edtf:cessation": "2020-11-13T08:17:45Z",
     "edtf:inception": "2020-11-12T22:11:00Z",
     "flysfo:actual_timestamp": 1605218040,
@@ -15,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1605218400,
     "flysfo:timestamp": 1605219060,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,7.267284,49.945918",
+    "geom:latitude": 43.781954,
+    "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "icao:aircraft": "B789",
     "icao:airline": "UAL",
@@ -28,34 +32,33 @@
     "mz:is_current": -1,
     "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102549057,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201112-D-UAL-58",
     "sfomuseum:flight_number": [
-      "UAL58", 
+      "UAL58",
       "UA58"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N15969",
     "wof:belongsto": [
-      1477855605, 
-      1477855885, 
-      1729489763, 
-      1477930469, 
-      102191575, 
-      85922583, 
-      85688637, 
-      1477855833, 
-      102527513, 
-      85633793, 
-      102087579, 
-      554784711, 
+      1477855605,
+      1477855885,
+      1477930469,
+      102191575,
+      85922583,
+      85688637,
+      1477855833,
+      102527513,
+      85633793,
+      102087579,
+      554784711,
       102085387
     ],
     "wof:breaches": [],
@@ -65,7 +68,7 @@
     },
     "wof:country": "US",
     "wof:created": 1605283923,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
     "wof:hierarchy": [
       {
         "building_id": 1477855605,
@@ -80,7 +83,7 @@
         "region_id": 85688637,
         "venue_id": 1477930469,
         "wing_id": 1477855833
-      }, 
+      },
       {
         "building_id": 1477855605,
         "campus_id": 102527513,
@@ -96,13 +99,13 @@
     ],
     "wof:id": 1729489763,
     "wof:involves": [
-      -1, 
-      102527513, 
-      1159285413, 
-      1477930469, 
+      -1,
+      102527513,
+      1159285413,
+      1477930469,
       1159293215
     ],
-    "wof:lastmodified": 1605283971,
+    "wof:lastmodified": 1651267605,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": 1477930469,
     "wof:placetype": "event",
@@ -112,10 +115,10 @@
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
-    37.61799
+    -122.370943,
+    37.61799,
+    7.267284,
+    49.945918
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[7.267284,49.945918]],"type":"MultiPoint"}
 }

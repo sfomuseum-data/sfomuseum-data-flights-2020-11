@@ -2,6 +2,10 @@
   "id": 1729500097,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-17",
+    "date:cessation_upper": "2020-11-17",
+    "date:inception_lower": "2020-11-16",
+    "date:inception_upper": "2020-11-16",
     "edtf:cessation": "2020-11-17T08:47:23Z",
     "edtf:inception": "2020-11-16T22:48:00Z",
     "flysfo:actual_timestamp": 1605565740,
@@ -15,9 +19,9 @@
     "flysfo:scheduled_timestamp": 1605564000,
     "flysfo:timestamp": 1605566880,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,37.617990,7.267284,49.945918",
+    "geom:latitude": 43.781954,
+    "geom:longitude": -57.5518295,
     "iata:airline": "UA",
     "icao:aircraft": "B789",
     "icao:airline": "UAL",
@@ -28,17 +32,17 @@
     "mz:is_current": -1,
     "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102549057,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201116-D-UAL-58",
     "sfomuseum:flight_number": [
-      "UAL58", 
+      "UAL58",
       "UA58"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,17 +53,21 @@
     },
     "wof:country": "US",
     "wof:created": 1605629727,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
-    "wof:hierarchy": [],
+    "wof:geomhash": "a63fc4dac3cd4064d907a0b9ef33a7bc",
+    "wof:hierarchy": [
+      {
+        "event_id": 1729500097
+      }
+    ],
     "wof:id": 1729500097,
     "wof:involves": [
-      -1, 
-      102527513, 
-      1159285413, 
-      -1, 
+      -1,
+      102527513,
+      1159285413,
+      -1,
       1159293215
     ],
-    "wof:lastmodified": 1605629772,
+    "wof:lastmodified": 1651267603,
     "wof:name": "UA58 (SFO-FRA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
@@ -69,10 +77,10 @@
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    0, 
-    0, 
-    37.61799
+    -122.370943,
+    37.61799,
+    7.267284,
+    49.945918
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[7.267284,49.945918]],"type":"MultiPoint"}
 }
