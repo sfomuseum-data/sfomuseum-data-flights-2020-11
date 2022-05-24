@@ -2,6 +2,10 @@
   "id": 1729502247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-18",
+    "date:cessation_upper": "2020-11-18",
+    "date:inception_lower": "2020-11-17",
+    "date:inception_upper": "2020-11-17",
     "edtf:cessation": "2020-11-18T00:29:00Z",
     "edtf:inception": "2020-11-17T19:15:00Z",
     "flysfo:actual_timestamp": 1605657600,
@@ -32,7 +36,7 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201117-D-UAL-1273",
     "sfomuseum:flight_number": [
-      "UAL1273", 
+      "UAL1273",
       "UA1273"
     ],
     "sfomuseum:placetype": "flight",
@@ -41,19 +45,18 @@
       "swim-path"
     ],
     "wof:belongsto": [
-      1477855699, 
-      102191575, 
-      85633793, 
-      1729502247, 
-      85922583, 
-      554784711, 
-      1477855605, 
-      102527513, 
-      102087579, 
-      1477930451, 
-      1477855703, 
-      85688637, 
-      102085387
+      102191575,
+      85633793,
+      85922583,
+      554784711,
+      102527513,
+      102087579,
+      85688637,
+      102085387,
+      1729792387,
+      1729792489,
+      1729792543,
+      1729792487
     ],
     "wof:breaches": [],
     "wof:concordances": {
@@ -65,9 +68,9 @@
     "wof:geomhash": "8c8f659fbae3cc58419f360e0abfbe56",
     "wof:hierarchy": [
       {
-        "building_id": 1477855605,
+        "building_id": 1729792387,
         "campus_id": 102527513,
-        "concourse_id": 1477855703,
+        "concourse_id": 1729792489,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
@@ -75,33 +78,33 @@
         "locality_id": 85922583,
         "postalcode_id": 554784711,
         "region_id": 85688637,
-        "venue_id": 1477930451,
-        "wing_id": 1477855699
-      }, 
+        "venue_id": 1729792543,
+        "wing_id": 1729792487
+      },
       {
-        "building_id": 1477855605,
+        "building_id": 1729792387,
         "campus_id": 102527513,
-        "concourse_id": 1477855703,
+        "concourse_id": 1729792489,
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102085387,
         "event_id": 1729502247,
         "region_id": 85688637,
-        "venue_id": 1477930451,
-        "wing_id": 1477855699
+        "venue_id": 1729792543,
+        "wing_id": 1729792487
       }
     ],
     "wof:id": 1729502247,
     "wof:involves": [
-      102532929, 
-      102527513, 
-      1159285413, 
-      1477930451, 
+      102532929,
+      102527513,
+      1159285413,
+      1477930451,
       1159289871
     ],
-    "wof:lastmodified": 1605715925,
+    "wof:lastmodified": 1653352784,
     "wof:name": "UA1273 (SFO-OGG)",
-    "wof:parent_id": 1477930451,
+    "wof:parent_id": 1729792543,
     "wof:placetype": "event",
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
@@ -109,9 +112,9 @@
     "wof:tags": []
   },
   "bbox": [
-    -156.437877, 
-    20.894952, 
-    -122.370943, 
+    -156.437877,
+    20.894952,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-156.437877,20.894952]],"type":"MultiPoint"}
