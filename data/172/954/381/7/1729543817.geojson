@@ -2,6 +2,10 @@
   "id": 1729543817,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-26",
+    "date:cessation_upper": "2020-11-26",
+    "date:inception_lower": "2020-11-25",
+    "date:inception_upper": "2020-11-25",
     "edtf:cessation": "2020-11-26T07:05:00Z",
     "edtf:inception": "2020-11-25T15:12:45-07:00",
     "flysfo:actual_timestamp": 1606348800,
@@ -32,13 +36,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201125-D-UAL-2740",
     "sfomuseum:flight_number": [
-      "UAL2740", 
+      "UAL2740",
       "UA2740"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N2250U",
@@ -50,28 +54,35 @@
     "wof:country": "US",
     "wof:created": 1606407173,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729543817
+      }
+    ],
     "wof:id": 1729543817,
     "wof:involves": [
-      102533795, 
-      102527513, 
-      1159285413, 
-      -1, 
+      102533795,
+      102527513,
+      1159285413,
+      -1,
       1159289993
     ],
-    "wof:lastmodified": 1606407277,
+    "wof:lastmodified": 1717032193,
     "wof:name": "UA2740 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    33.942593, 
-    -118.38951, 
+    -122.370943,
+    33.942593,
+    -118.38951,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-118.38951,33.942593]],"type":"MultiPoint"}

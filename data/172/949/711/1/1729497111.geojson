@@ -2,6 +2,10 @@
   "id": 1729497111,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-16",
+    "date:cessation_upper": "2020-11-16",
+    "date:inception_lower": "2020-11-15",
+    "date:inception_upper": "2020-11-15",
     "edtf:cessation": "2020-11-16T01:38:07Z",
     "edtf:inception": "2020-11-15T20:50:00Z",
     "flysfo:actual_timestamp": 1605484800,
@@ -32,13 +36,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201115-D-JBU-534",
     "sfomuseum:flight_number": [
-      "JBU534", 
+      "JBU534",
       "B6534"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -49,28 +53,35 @@
     "wof:country": "US",
     "wof:created": 1605543090,
     "wof:geomhash": "92fb504f17f3373e6b03bb6769f65d8a",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729497111
+      }
+    ],
     "wof:id": 1729497111,
     "wof:involves": [
-      102530741, 
-      102527513, 
-      1159284583, 
-      -1, 
+      102530741,
+      102527513,
+      1159284583,
+      -1,
       1159289411
     ],
-    "wof:lastmodified": 1605543237,
+    "wof:lastmodified": 1717032195,
     "wof:name": "B6534 (SFO-BOS)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -71.01475, 
+    -122.370943,
+    37.61799,
+    -71.01475,
     42.362322
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-71.01475,42.362322]],"type":"MultiPoint"}

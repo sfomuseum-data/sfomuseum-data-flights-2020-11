@@ -2,6 +2,10 @@
   "id": 1729498639,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-16",
+    "date:cessation_upper": "2020-11-16",
+    "date:inception_lower": "2020-11-16",
+    "date:inception_upper": "2020-11-16",
     "edtf:cessation": "2020-11-16T10:28:55-07:00",
     "edtf:inception": "2020-11-16T20:07:00Z",
     "flysfo:actual_timestamp": 1605577080,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102536223,
     "sfomuseum:flight_id": "20201116-A-UAL-1159",
     "sfomuseum:flight_number": [
-      "UAL1159", 
+      "UAL1159",
       "UA1159"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N68452",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1605629171,
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729498639
+      }
+    ],
     "wof:id": 1729498639,
     "wof:involves": [
-      102527513, 
-      102536223, 
-      1159285413, 
-      -1, 
+      102527513,
+      102536223,
+      1159285413,
+      -1,
       1377564285
     ],
-    "wof:lastmodified": 1605629778,
+    "wof:lastmodified": 1717032196,
     "wof:name": "UA1159 (CUN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    21.040317, 
-    -86.872856, 
+    -122.370943,
+    21.040317,
+    -86.872856,
     37.61799
   ],
   "geometry": {"coordinates":[[-86.872856,21.040317],[-122.370943,37.61799]],"type":"MultiPoint"}

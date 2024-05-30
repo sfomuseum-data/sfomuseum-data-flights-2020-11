@@ -96,10 +96,13 @@
       1477930363,
       1159284261
     ],
-    "wof:lastmodified": 1653352800,
+    "wof:lastmodified": 1717032193,
     "wof:name": "KE3471 (SFO-DTW)",
     "wof:parent_id": 1729792419,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],

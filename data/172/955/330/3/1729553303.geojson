@@ -59,10 +59,13 @@
       1159284711,
       -1
     ],
-    "wof:lastmodified": 1651267610,
+    "wof:lastmodified": 1717032192,
     "wof:name": "LH455 (SFO-FRA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],

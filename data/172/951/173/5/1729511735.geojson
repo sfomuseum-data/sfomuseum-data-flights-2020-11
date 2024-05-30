@@ -105,10 +105,13 @@
       1477930393,
       1159289871
     ],
-    "wof:lastmodified": 1653352794,
+    "wof:lastmodified": 1717032190,
     "wof:name": "UA282 (LIH-SFO)",
     "wof:parent_id": 1729792563,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],

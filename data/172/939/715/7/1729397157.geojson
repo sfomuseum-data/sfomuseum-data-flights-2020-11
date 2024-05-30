@@ -2,6 +2,10 @@
   "id": 1729397157,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-03",
+    "date:cessation_upper": "2020-11-03",
+    "date:inception_lower": "2020-11-03",
+    "date:inception_upper": "2020-11-03",
     "edtf:cessation": "2020-11-03T05:59:04-07:00",
     "edtf:inception": "2020-11-03T17:13:00Z",
     "flysfo:actual_timestamp": 1604448000,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20201103-A-UAL-2726",
     "sfomuseum:flight_number": [
-      "UAL2726", 
+      "UAL2726",
       "UA2726"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N778UA",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1604505952,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729397157
+      }
+    ],
     "wof:id": 1729397157,
     "wof:involves": [
-      102527513, 
-      102533631, 
-      1159285413, 
-      -1, 
+      102527513,
+      102533631,
+      1159285413,
+      -1,
       1159289985
     ],
-    "wof:lastmodified": 1604506311,
+    "wof:lastmodified": 1717032192,
     "wof:name": "UA2726 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}

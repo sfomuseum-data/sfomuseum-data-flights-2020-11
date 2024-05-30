@@ -2,6 +2,10 @@
   "id": 1729401963,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-05",
+    "date:cessation_upper": "2020-11-05",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
     "edtf:cessation": "2020-11-05T05:21:12-07:00",
     "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1604620800,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102530049,
     "sfomuseum:flight_id": "20201105-A-JBU-483",
     "sfomuseum:flight_number": [
-      "JBU483", 
+      "JBU483",
       "B6483"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N964JT",
@@ -48,28 +52,35 @@
     "wof:country": "US",
     "wof:created": 1604678713,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729401963
+      }
+    ],
     "wof:id": 1729401963,
     "wof:involves": [
-      102527513, 
-      102530049, 
-      1159284583, 
-      -1, 
+      102527513,
+      102530049,
+      1159284583,
+      -1,
       1159289411
     ],
-    "wof:lastmodified": 1604679120,
+    "wof:lastmodified": 1717032191,
     "wof:name": "B6483 (EWR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-74.177526,40.691243],[-122.370943,37.61799]],"type":"MultiPoint"}

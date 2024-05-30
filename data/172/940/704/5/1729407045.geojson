@@ -2,6 +2,10 @@
   "id": 1729407045,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-07",
+    "date:cessation_upper": "2020-11-07",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
     "edtf:cessation": "2020-11-07T16:17:11-07:00",
     "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1604819940,
@@ -32,7 +36,7 @@
     "sfomuseum:departure_id": 102533927,
     "sfomuseum:flight_id": "20201107-A-JBU-8503",
     "sfomuseum:flight_number": [
-      "JBU8503", 
+      "JBU8503",
       "B68503"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,28 +50,35 @@
     "wof:country": "US",
     "wof:created": 1604851505,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729407045
+      }
+    ],
     "wof:id": 1729407045,
     "wof:involves": [
-      102527513, 
-      102533927, 
-      1159284583, 
-      -1, 
+      102527513,
+      102533927,
+      1159284583,
+      -1,
       1377564297
     ],
-    "wof:lastmodified": 1604851917,
+    "wof:lastmodified": 1717032195,
     "wof:name": "B68503 (EUG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -123.21303, 
-    37.61799, 
-    -122.370943, 
+    -123.21303,
+    37.61799,
+    -122.370943,
     44.119058
   ],
   "geometry": {"coordinates":[[-123.21303,44.119058],[-122.370943,37.61799]],"type":"MultiPoint"}

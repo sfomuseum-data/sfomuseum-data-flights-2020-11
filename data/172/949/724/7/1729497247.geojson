@@ -2,6 +2,10 @@
   "id": 1729497247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-15",
+    "date:cessation_upper": "2020-11-15",
+    "date:inception_lower": "2020-11-15",
+    "date:inception_upper": "2020-11-15",
     "edtf:cessation": "2020-11-15T23:16:00Z",
     "edtf:inception": "2020-11-15T21:42:00Z",
     "flysfo:actual_timestamp": 1605484800,
@@ -30,13 +34,13 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201115-D-SWA-629",
     "sfomuseum:flight_number": [
-      "SWA629", 
+      "SWA629",
       "WN629"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -47,27 +51,34 @@
     "wof:country": "US",
     "wof:created": 1605543125,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729497247
+      }
+    ],
     "wof:id": 1729497247,
     "wof:involves": [
-      102526751, 
-      102527513, 
-      1159285591, 
+      102526751,
+      102527513,
+      1159285591,
       -1
     ],
-    "wof:lastmodified": 1605543238,
+    "wof:lastmodified": 1717032195,
     "wof:name": "WN629 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-112.017392,33.432684]],"type":"MultiPoint"}

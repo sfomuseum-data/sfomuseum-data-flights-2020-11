@@ -2,6 +2,10 @@
   "id": 1729541821,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-25",
+    "date:cessation_upper": "2020-11-25",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
     "edtf:cessation": "2020-11-25T11:53:10-07:00",
     "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1606348800,
@@ -32,13 +36,13 @@
     "sfomuseum:departure_id": 102536481,
     "sfomuseum:flight_id": "20201125-A-ASA-1273",
     "sfomuseum:flight_number": [
-      "ASA1273", 
+      "ASA1273",
       "AS1273"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-path", 
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N843VA",
@@ -47,28 +51,35 @@
     "wof:country": "US",
     "wof:created": 1606406652,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729541821
+      }
+    ],
     "wof:id": 1729541821,
     "wof:involves": [
-      102527513, 
-      102536481, 
-      1159283813, 
-      -1, 
+      102527513,
+      102536481,
+      1159283813,
+      -1,
       1159292085
     ],
-    "wof:lastmodified": 1606407266,
+    "wof:lastmodified": 1717032191,
     "wof:name": "AS1273 (PVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    20.660734, 
-    -105.250456, 
+    -122.370943,
+    20.660734,
+    -105.250456,
     37.61799
   ],
   "geometry": {"coordinates":[[-105.250456,20.660734],[-122.370943,37.61799]],"type":"MultiPoint"}

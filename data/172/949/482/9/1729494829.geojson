@@ -2,6 +2,10 @@
   "id": 1729494829,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-15",
+    "date:cessation_upper": "2020-11-15",
+    "date:inception_lower": "2020-11-14",
+    "date:inception_upper": "2020-11-14",
     "edtf:cessation": "2020-11-15T09:55:08Z",
     "edtf:inception": "2020-11-14T20:56:00Z",
     "flysfo:actual_timestamp": 1605398400,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201114-D-UAL-857",
     "sfomuseum:flight_number": [
-      "UAL857", 
+      "UAL857",
       "UA857"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N2737U",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1605456713,
     "wof:geomhash": "014430cde1a85b033fb3b4a447168595",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729494829
+      }
+    ],
     "wof:id": 1729494829,
     "wof:involves": [
-      102550331, 
-      102527513, 
-      1159285413, 
-      -1, 
+      102550331,
+      102527513,
+      1159285413,
+      -1,
       1159289993
     ],
-    "wof:lastmodified": 1605456742,
+    "wof:lastmodified": 1717032194,
     "wof:name": "UA857 (SFO-PVG)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    31.145312, 
-    121.799307, 
+    -122.370943,
+    31.145312,
+    121.799307,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[121.799307,31.145312]],"type":"MultiPoint"}

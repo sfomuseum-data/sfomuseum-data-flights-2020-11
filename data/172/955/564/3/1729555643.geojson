@@ -2,6 +2,10 @@
   "id": 1729555643,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-30",
+    "date:cessation_upper": "2020-11-30",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
     "edtf:cessation": "2020-11-30T16:09:23-07:00",
     "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1606780800,
@@ -32,7 +36,7 @@
     "sfomuseum:departure_id": 102532929,
     "sfomuseum:flight_id": "20201130-A-UAL-2739",
     "sfomuseum:flight_number": [
-      "UAL2739", 
+      "UAL2739",
       "UA2739"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,28 +50,35 @@
     "wof:country": "US",
     "wof:created": 1606838872,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729555643
+      }
+    ],
     "wof:id": 1729555643,
     "wof:involves": [
-      102527513, 
-      102532929, 
-      1159285413, 
-      -1, 
+      102527513,
+      102532929,
+      1159285413,
+      -1,
       1159289871
     ],
-    "wof:lastmodified": 1606839346,
+    "wof:lastmodified": 1717032193,
     "wof:name": "UA2739 (OGG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -156.437877, 
-    20.894952, 
-    -122.370943, 
+    -156.437877,
+    20.894952,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-156.437877,20.894952],[-122.370943,37.61799]],"type":"MultiPoint"}

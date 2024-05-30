@@ -54,10 +54,13 @@
       1159283849,
       -1
     ],
-    "wof:lastmodified": 1651267473,
+    "wof:lastmodified": 1717032193,
     "wof:name": "AA3132 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],

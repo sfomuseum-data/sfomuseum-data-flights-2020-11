@@ -2,6 +2,10 @@
   "id": 1729495963,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-15",
+    "date:cessation_upper": "2020-11-15",
+    "date:inception_lower": "2020-11-15",
+    "date:inception_upper": "2020-11-15",
     "edtf:cessation": "2020-11-15T18:34:00Z",
     "edtf:inception": "2020-11-15T16:53:00Z",
     "flysfo:actual_timestamp": 1605484800,
@@ -30,13 +34,13 @@
     "sfomuseum:departure_id": 102526751,
     "sfomuseum:flight_id": "20201115-A-SWA-1341",
     "sfomuseum:flight_number": [
-      "SWA1341", 
+      "SWA1341",
       "WN1341"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -47,27 +51,34 @@
     "wof:country": "US",
     "wof:created": 1605542793,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729495963
+      }
+    ],
     "wof:id": 1729495963,
     "wof:involves": [
-      102527513, 
-      102526751, 
-      1159285591, 
+      102527513,
+      102526751,
+      1159285591,
       -1
     ],
-    "wof:lastmodified": 1605543235,
+    "wof:lastmodified": 1717032194,
     "wof:name": "WN1341 (PHX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    33.432684, 
-    -112.017392, 
+    -122.370943,
+    33.432684,
+    -112.017392,
     37.61799
   ],
   "geometry": {"coordinates":[[-112.017392,33.432684],[-122.370943,37.61799]],"type":"MultiPoint"}

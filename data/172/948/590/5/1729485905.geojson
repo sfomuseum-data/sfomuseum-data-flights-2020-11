@@ -2,6 +2,10 @@
   "id": 1729485905,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-11",
+    "date:cessation_upper": "2020-11-11",
+    "date:inception_lower": "2020-11-11",
+    "date:inception_upper": "2020-11-11",
     "edtf:cessation": "2020-11-11T09:38:35-07:00",
     "edtf:inception": "2020-11-11T21:00:00Z",
     "flysfo:actual_timestamp": 1605142080,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102536481,
     "sfomuseum:flight_id": "20201111-A-UAL-1243",
     "sfomuseum:flight_number": [
-      "UAL1243", 
+      "UAL1243",
       "UA1243"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N417UA",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1605197165,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729485905
+      }
+    ],
     "wof:id": 1729485905,
     "wof:involves": [
-      102527513, 
-      102536481, 
-      1159285413, 
-      -1, 
+      102527513,
+      102536481,
+      1159285413,
+      -1,
       1159292085
     ],
-    "wof:lastmodified": 1605197574,
+    "wof:lastmodified": 1717032195,
     "wof:name": "UA1243 (PVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    20.660734, 
-    -105.250456, 
+    -122.370943,
+    20.660734,
+    -105.250456,
     37.61799
   ],
   "geometry": {"coordinates":[[-105.250456,20.660734],[-122.370943,37.61799]],"type":"MultiPoint"}

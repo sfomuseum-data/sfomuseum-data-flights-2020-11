@@ -2,6 +2,10 @@
   "id": 1729493115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-14",
+    "date:cessation_upper": "2020-11-14",
+    "date:inception_lower": "2020-11-14",
+    "date:inception_upper": "2020-11-14",
     "edtf:cessation": "2020-11-14T18:04:53Z",
     "edtf:inception": "2020-11-14T06:30:00Z",
     "flysfo:actual_timestamp": 1605398400,
@@ -30,13 +34,13 @@
     "sfomuseum:departure_id": 102541737,
     "sfomuseum:flight_id": "20201114-A-CPA-870",
     "sfomuseum:flight_number": [
-      "CPA870", 
+      "CPA870",
       "CX870"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -47,27 +51,34 @@
     "wof:country": "US",
     "wof:created": 1605456249,
     "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729493115
+      }
+    ],
     "wof:id": 1729493115,
     "wof:involves": [
-      102527513, 
-      102541737, 
-      1159284127, 
+      102527513,
+      102541737,
+      1159284127,
       -1
     ],
-    "wof:lastmodified": 1605456740,
+    "wof:lastmodified": 1717032192,
     "wof:name": "CX870 (HKG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    22.307471, 
-    113.927436, 
+    -122.370943,
+    22.307471,
+    113.927436,
     37.61799
   ],
   "geometry": {"coordinates":[[113.927436,22.307471],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -2,6 +2,10 @@
   "id": 1729509017,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-20",
+    "date:cessation_upper": "2020-11-20",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
     "edtf:cessation": "2020-11-20T13:00:27-07:00",
     "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1605916800,
@@ -32,7 +36,7 @@
     "sfomuseum:departure_id": 102533927,
     "sfomuseum:flight_id": "20201120-A-UAL-2550",
     "sfomuseum:flight_number": [
-      "UAL2550", 
+      "UAL2550",
       "UA2550"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,28 +50,35 @@
     "wof:country": "US",
     "wof:created": 1605974815,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729509017
+      }
+    ],
     "wof:id": 1729509017,
     "wof:involves": [
-      102527513, 
-      102533927, 
-      1159285413, 
-      -1, 
+      102527513,
+      102533927,
+      1159285413,
+      -1,
       1159289945
     ],
-    "wof:lastmodified": 1605975230,
+    "wof:lastmodified": 1717032196,
     "wof:name": "UA2550 (EUG-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -123.21303, 
-    37.61799, 
-    -122.370943, 
+    -123.21303,
+    37.61799,
+    -122.370943,
     44.119058
   ],
   "geometry": {"coordinates":[[-123.21303,44.119058],[-122.370943,37.61799]],"type":"MultiPoint"}

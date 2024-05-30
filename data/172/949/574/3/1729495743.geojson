@@ -96,10 +96,13 @@
       1477930435,
       1159285413
     ],
-    "wof:lastmodified": 1653352778,
+    "wof:lastmodified": 1717032195,
     "wof:name": "ET1358 (IAD-SFO)",
     "wof:parent_id": 1729792529,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],

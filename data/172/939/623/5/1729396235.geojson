@@ -2,6 +2,10 @@
   "id": 1729396235,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-03",
+    "date:cessation_upper": "2020-11-03",
+    "date:inception_lower": "2020-11-03",
+    "date:inception_upper": "2020-11-03",
     "edtf:cessation": "2020-11-03T06:30:45-07:00",
     "edtf:inception": "2020-11-03T16:35:00Z",
     "flysfo:actual_timestamp": 1604448000,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102528659,
     "sfomuseum:flight_id": "20201103-A-AAL-2061",
     "sfomuseum:flight_number": [
-      "AAL2061", 
+      "AAL2061",
       "AA2061"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N173US",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1604505673,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729396235
+      }
+    ],
     "wof:id": 1729396235,
     "wof:involves": [
-      102527513, 
-      102528659, 
-      1159283849, 
-      -1, 
+      102527513,
+      102528659,
+      1159283849,
+      -1,
       1159289411
     ],
-    "wof:lastmodified": 1604506313,
+    "wof:lastmodified": 1717032191,
     "wof:name": "AA2061 (CLT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    35.220744, 
-    -80.942777, 
+    -122.370943,
+    35.220744,
+    -80.942777,
     37.61799
   ],
   "geometry": {"coordinates":[[-80.942777,35.220744],[-122.370943,37.61799]],"type":"MultiPoint"}

@@ -2,6 +2,10 @@
   "id": 1729505137,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-18",
+    "date:cessation_upper": "2020-11-18",
+    "date:inception_lower": "2020-11-18",
+    "date:inception_upper": "2020-11-18",
     "edtf:cessation": "2020-11-18T21:26:00Z",
     "edtf:inception": "2020-11-18T02:10:11-07:00",
     "flysfo:actual_timestamp": 1605744000,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201118-D-UAL-327",
     "sfomuseum:flight_number": [
-      "UAL327", 
+      "UAL327",
       "UA327"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N20904",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1605802336,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729505137
+      }
+    ],
     "wof:id": 1729505137,
     "wof:involves": [
-      102528817, 
-      102527513, 
-      1159285413, 
-      -1, 
+      102528817,
+      102527513,
+      1159285413,
+      -1,
       1159289995
     ],
-    "wof:lastmodified": 1605802418,
+    "wof:lastmodified": 1717032195,
     "wof:name": "UA327 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -77.453702, 
+    -122.370943,
+    37.61799,
+    -77.453702,
     38.949246
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-77.453702,38.949246]],"type":"MultiPoint"}

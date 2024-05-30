@@ -2,6 +2,10 @@
   "id": 1729500319,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-17",
+    "date:cessation_upper": "2020-11-17",
+    "date:inception_lower": "2020-11-17",
+    "date:inception_upper": "2020-11-17",
     "edtf:cessation": "2020-11-17T20:45:00Z",
     "edtf:inception": "2020-11-17T17:19:00Z",
     "flysfo:actual_timestamp": 1605657600,
@@ -32,13 +36,13 @@
     "sfomuseum:departure_id": 102528541,
     "sfomuseum:flight_id": "20201117-A-AAL-2914",
     "sfomuseum:flight_number": [
-      "AAL2914", 
+      "AAL2914",
       "AA2914"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -50,28 +54,35 @@
     "wof:country": "US",
     "wof:created": 1605715313,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729500319
+      }
+    ],
     "wof:id": 1729500319,
     "wof:involves": [
-      102527513, 
-      102528541, 
-      1159283849, 
-      -1, 
+      102527513,
+      102528541,
+      1159283849,
+      -1,
       1159289871
     ],
-    "wof:lastmodified": 1605715918,
+    "wof:lastmodified": 1717032195,
     "wof:name": "AA2914 (DFW-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    32.90366, 
-    -97.050966, 
+    -122.370943,
+    32.90366,
+    -97.050966,
     37.61799
   ],
   "geometry": {"coordinates":[[-97.050966,32.90366],[-122.370943,37.61799]],"type":"MultiPoint"}

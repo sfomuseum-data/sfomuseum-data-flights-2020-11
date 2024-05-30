@@ -2,6 +2,10 @@
   "id": 1729492753,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-15",
+    "date:cessation_upper": "2020-11-15",
+    "date:inception_lower": "2020-11-14",
+    "date:inception_upper": "2020-11-14",
     "edtf:cessation": "2020-11-15T14:08:31Z",
     "edtf:inception": "2020-11-14T23:17:13Z",
     "flysfo:actual_timestamp": 1605398400,
@@ -30,13 +34,13 @@
     "sfomuseum:departure_id": 102555709,
     "sfomuseum:flight_id": "20201114-A-AIC-173",
     "sfomuseum:flight_number": [
-      "AIC173", 
+      "AIC173",
       "AI173"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
+      "swim-route",
       "swim-path"
     ],
     "wof:belongsto": [],
@@ -47,27 +51,34 @@
     "wof:country": "US",
     "wof:created": 1605456150,
     "wof:geomhash": "c9618692327b148a3f9466df78845400",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729492753
+      }
+    ],
     "wof:id": 1729492753,
     "wof:involves": [
-      102527513, 
-      102555709, 
-      1159283649, 
+      102527513,
+      102555709,
+      1159283649,
       -1
     ],
-    "wof:lastmodified": 1605456738,
+    "wof:lastmodified": 1717032192,
     "wof:name": "AI173 (DEL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    28.561954, 
-    77.098117, 
+    -122.370943,
+    28.561954,
+    77.098117,
     37.61799
   ],
   "geometry": {"coordinates":[[77.098117,28.561954],[-122.370943,37.61799]],"type":"MultiPoint"}

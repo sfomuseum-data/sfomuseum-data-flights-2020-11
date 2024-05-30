@@ -2,6 +2,10 @@
   "id": 1729534637,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-22",
+    "date:cessation_upper": "2020-11-22",
+    "date:inception_lower": "2020-11-22",
+    "date:inception_upper": "2020-11-22",
     "edtf:cessation": "2020-11-22T22:18:30Z",
     "edtf:inception": "2020-11-22T11:44:00Z",
     "flysfo:actual_timestamp": 1606089600,
@@ -30,7 +34,7 @@
     "sfomuseum:departure_id": 102556703,
     "sfomuseum:flight_id": "20201122-A-BAW-285",
     "sfomuseum:flight_number": [
-      "BAW285", 
+      "BAW285",
       "BA285"
     ],
     "sfomuseum:placetype": "flight",
@@ -43,27 +47,34 @@
     "wof:country": "US",
     "wof:created": 1606147447,
     "wof:geomhash": "c7bf5337358552a3a60caed0c1e9ea63",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729534637
+      }
+    ],
     "wof:id": 1729534637,
     "wof:involves": [
-      102527513, 
-      102556703, 
-      1159284021, 
+      102527513,
+      102556703,
+      1159284021,
       -1
     ],
-    "wof:lastmodified": 1606147896,
+    "wof:lastmodified": 1717032193,
     "wof:name": "BA285 (LHR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -0.450443, 
+    -122.370943,
+    37.61799,
+    -0.450443,
     51.470087
   ],
   "geometry": {"coordinates":[[-0.450443,51.470087],[-122.370943,37.61799]],"type":"MultiPoint"}

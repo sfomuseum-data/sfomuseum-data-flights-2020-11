@@ -2,6 +2,10 @@
   "id": 1729487371,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
+    "date:inception_lower": "2020-11-11",
+    "date:inception_upper": "2020-11-11",
     "edtf:cessation": "1970-01-01T00:00:00Z",
     "edtf:inception": "2020-11-11T13:06:23-07:00",
     "flysfo:actual_timestamp": 1605152700,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201111-D-UAL-954",
     "sfomuseum:flight_number": [
-      "UAL954", 
+      "UAL954",
       "UA954"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N19951",
@@ -48,28 +52,35 @@
     "wof:country": "US",
     "wof:created": 1605197547,
     "wof:geomhash": "1b9d916c097bbded3c8620fa2d25ceca",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729487371
+      }
+    ],
     "wof:id": 1729487371,
     "wof:involves": [
-      102542687, 
-      102527513, 
-      1159285413, 
-      -1, 
+      102542687,
+      102527513,
+      1159285413,
+      -1,
       1159293215
     ],
-    "wof:lastmodified": 1605197578,
+    "wof:lastmodified": 1717032196,
     "wof:name": "UA954 (SFO-TLV)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    32.005595, 
-    34.877214, 
+    -122.370943,
+    32.005595,
+    34.877214,
     37.61799
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[34.877214,32.005595]],"type":"MultiPoint"}

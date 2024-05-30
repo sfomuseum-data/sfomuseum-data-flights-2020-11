@@ -2,6 +2,10 @@
   "id": 1729535957,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-22",
+    "date:cessation_upper": "2020-11-22",
+    "date:inception_lower": "2020-11-22",
+    "date:inception_upper": "2020-11-22",
     "edtf:cessation": "2020-11-22T21:10:00Z",
     "edtf:inception": "2020-11-22T01:35:22-07:00",
     "flysfo:actual_timestamp": 1606089600,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20201122-D-UAL-2766",
     "sfomuseum:flight_number": [
-      "UAL2766", 
+      "UAL2766",
       "UA2766"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-takeoff"
     ],
     "swim:tail_number": "N29968",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1606147834,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729535957
+      }
+    ],
     "wof:id": 1729535957,
     "wof:involves": [
-      102530049, 
-      102527513, 
-      1159285413, 
-      -1, 
+      102530049,
+      102527513,
+      1159285413,
+      -1,
       1159293215
     ],
-    "wof:lastmodified": 1606147905,
+    "wof:lastmodified": 1717032191,
     "wof:name": "UA2766 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -74.177526, 
+    -122.370943,
+    37.61799,
+    -74.177526,
     40.691243
   ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-74.177526,40.691243]],"type":"MultiPoint"}

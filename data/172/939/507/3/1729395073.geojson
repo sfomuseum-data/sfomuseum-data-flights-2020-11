@@ -104,10 +104,13 @@
       1477930321,
       1377564285
     ],
-    "wof:lastmodified": 1653352747,
+    "wof:lastmodified": 1717032193,
     "wof:name": "DL773 (SFO-DTW)",
     "wof:parent_id": 1729792463,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],

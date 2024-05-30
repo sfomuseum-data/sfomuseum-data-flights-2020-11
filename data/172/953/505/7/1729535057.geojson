@@ -2,6 +2,10 @@
   "id": 1729535057,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-22",
+    "date:cessation_upper": "2020-11-22",
+    "date:inception_lower": "2020-11-22",
+    "date:inception_upper": "2020-11-22",
     "edtf:cessation": "2020-11-22T13:59:00Z",
     "edtf:inception": "2020-11-22T03:56:00Z",
     "flysfo:actual_timestamp": 1606089600,
@@ -32,7 +36,7 @@
     "sfomuseum:departure_id": 102535777,
     "sfomuseum:flight_id": "20201122-A-UAL-2765",
     "sfomuseum:flight_number": [
-      "UAL2765", 
+      "UAL2765",
       "UA2765"
     ],
     "sfomuseum:placetype": "flight",
@@ -46,28 +50,35 @@
     "wof:country": "US",
     "wof:created": 1606147576,
     "wof:geomhash": "cfb34c2f58cdf1c02ffeb00ec136aa4c",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729535057
+      }
+    ],
     "wof:id": 1729535057,
     "wof:involves": [
-      102527513, 
-      102535777, 
-      1159285413, 
-      -1, 
+      102527513,
+      102535777,
+      1159285413,
+      -1,
       1159293215
     ],
-    "wof:lastmodified": 1606147901,
+    "wof:lastmodified": 1717032190,
     "wof:name": "UA2765 (GUM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    13.483889, 
-    144.797222, 
+    -122.370943,
+    13.483889,
+    144.797222,
     37.61799
   ],
   "geometry": {"coordinates":[[144.797222,13.483889],[-122.370943,37.61799]],"type":"MultiPoint"}

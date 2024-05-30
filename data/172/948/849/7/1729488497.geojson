@@ -2,6 +2,10 @@
   "id": 1729488497,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-12",
+    "date:cessation_upper": "2020-11-12",
+    "date:inception_lower": "2020-11-12",
+    "date:inception_upper": "2020-11-12",
     "edtf:cessation": "2020-11-12T06:54:20-07:00",
     "edtf:inception": "2020-11-12T17:46:00Z",
     "flysfo:actual_timestamp": 1605225600,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20201112-A-UAL-2797",
     "sfomuseum:flight_number": [
-      "UAL2797", 
+      "UAL2797",
       "UA2797"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N792UA",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1605283593,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729488497
+      }
+    ],
     "wof:id": 1729488497,
     "wof:involves": [
-      102527513, 
-      102533631, 
-      1159285413, 
-      -1, 
+      102527513,
+      102533631,
+      1159285413,
+      -1,
       1159289985
     ],
-    "wof:lastmodified": 1605283968,
+    "wof:lastmodified": 1717032196,
     "wof:name": "UA2797 (ORD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -122.370943, 
-    37.61799, 
-    -87.894364, 
+    -122.370943,
+    37.61799,
+    -87.894364,
     41.983038
   ],
   "geometry": {"coordinates":[[-87.894364,41.983038],[-122.370943,37.61799]],"type":"MultiPoint"}

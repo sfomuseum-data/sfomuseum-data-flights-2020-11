@@ -2,6 +2,10 @@
   "id": 1729503845,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2020-11-18",
+    "date:cessation_upper": "2020-11-18",
+    "date:inception_lower": "2020-11-18",
+    "date:inception_upper": "2020-11-18",
     "edtf:cessation": "2020-11-18T01:16:00-07:00",
     "edtf:inception": "2020-11-18T08:37:00Z",
     "flysfo:actual_timestamp": 1605744000,
@@ -32,14 +36,14 @@
     "sfomuseum:departure_id": 102558779,
     "sfomuseum:flight_id": "20201118-A-UAL-114",
     "sfomuseum:flight_number": [
-      "UAL114", 
+      "UAL114",
       "UA114"
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "src:geom_alt": [
-      "swim-route", 
-      "swim-path", 
+      "swim-route",
+      "swim-path",
       "swim-approach"
     ],
     "swim:tail_number": "N19951",
@@ -52,28 +56,35 @@
     "wof:country": "US",
     "wof:created": 1605801985,
     "wof:geomhash": "cb635fc427df70f0d5f88d1f39ad4ded",
-    "wof:hierarchy": [],
+    "wof:hierarchy": [
+      {
+        "event_id": 1729503845
+      }
+    ],
     "wof:id": 1729503845,
     "wof:involves": [
-      102527513, 
-      102558779, 
-      1159285413, 
-      -1, 
+      102527513,
+      102558779,
+      1159285413,
+      -1,
       1159293215
     ],
-    "wof:lastmodified": 1605802412,
+    "wof:lastmodified": 1717032193,
     "wof:name": "UA114 (PPT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2020-11",
     "wof:superseded_by": [],
     "wof:supersedes": [],
     "wof:tags": []
   },
   "bbox": [
-    -149.617144, 
-    -17.573463, 
-    -122.370943, 
+    -149.617144,
+    -17.573463,
+    -122.370943,
     37.61799
   ],
   "geometry": {"coordinates":[[-149.617144,-17.573463],[-122.370943,37.61799]],"type":"MultiPoint"}
